@@ -28,12 +28,12 @@ for x in s:
 print(dict)
 str=''
 odd_str=''
-for k,v in dict.items():
-	if v%2==0:
-		# it is even
-		str +=k*int((v/2))
-	else:
-		odd_str += k	
+# for k,v in dict.items():
+# 	if v%2==0:
+# 		# it is even
+# 		str +=k*int((v/2))
+# 	else:
+# 		odd_str += k	
 print(str)
 print(arrangedWays(str))
 l=arrangedWays(str)
